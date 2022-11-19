@@ -23,8 +23,6 @@
 			<div class="alert alert-danger">${erro}</div>
 		</c:if>
 		
-
-
 		<table class="table table-striped">
 			<tr>
 				<th>Categoria</th>

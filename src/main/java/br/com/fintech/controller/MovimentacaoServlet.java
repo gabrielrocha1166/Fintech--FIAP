@@ -160,6 +160,8 @@ public class MovimentacaoServlet extends HttpServlet {
 		
 	}
 
+	
+	//listar movimentacoes
 	private void listar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		List<Movimentacao> lista = dao.listar();
 		request.setAttribute("movimentacoes", lista);
