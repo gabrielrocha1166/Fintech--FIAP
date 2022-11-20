@@ -1,0 +1,40 @@
+body {
+	background: #0e8aaf;
+	font-family: var(--bs-font-sans-serif);
+}
+
+.logo {
+	margin: 12px 0 0 24px;
+}
+
+.texto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	flex-direction: column;
+	padding-top: 100px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 240PX;
+}

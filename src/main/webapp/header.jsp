@@ -3,9 +3,12 @@
 <!-- Reset CSS -->
 <link rel="stylesheet" href="resources/css/reset.css">
 
-<!-- CSS Personalizado -->
+<!-- CSS cadastro -->
 <link rel="stylesheet" href="resources/css/style_cadastro.css">
 
 
-<!-- CSS Personalizado -->
+<!-- CSS cadastro movimentacao -->
 <link rel="stylesheet" href="resources/css/cadastro-movimentacao.css">
+
+<!-- CSS home -->
+<link rel="stylesheet" href="resources/css/home.css">
