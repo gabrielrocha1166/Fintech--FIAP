@@ -14,12 +14,9 @@
 		</header>
         <main class="box">
             <h1>Cadastre-se</h1>
-            
-            <!-- Esse códiogo comentado abaixo é porque estava aperecendo um erro na tela, tira o comentário e verifica o que está ocorrendo -->
-
-            <!-- <c:if test="${not empty erro}" >
+            <c:if test="${not empty erro}" >
                 <div class="alert alert-danger">${erro}</div>
-            </c:if> -->
+            </c:if>
             <form action="servletCadastro" method="POST">
                 <fieldset>
                     <label>Nome</label>
