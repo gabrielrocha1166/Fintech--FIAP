@@ -5,3 +5,7 @@
 
 <!-- CSS Personalizado -->
 <link rel="stylesheet" href="resources/css/style_cadastro.css">
+
+
+<!-- CSS Personalizado -->
+<link rel="stylesheet" href="resources/css/cadastro-movimentacao.css">
