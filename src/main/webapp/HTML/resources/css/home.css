@@ -1,40 +1,58 @@
 body {
 	background: #0e8aaf;
-	font-family: var(--bs-font-sans-serif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .logo {
 	margin: 12px 0 0 24px;
 }
 
-.texto {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 60vh;
-	flex-direction: column;
-	padding-top: 100px;
+section.cabecalho {
+	margin: 80px 0 60px;
 }
 
 h1 {
 	color: #FFFFFF;
 	font-style: normal;
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
 	color: #FFFFFF;
+	font-family: 'Kadwa';
 	font-style: normal;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
-	margin: 0;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.form-control {
+	width: 200px;
+}
+
+button {
+	background: #F0EDED;
+	color: black;
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	width: 200px;
+	height: 60px;
+	margin: 30px auto;
+	display: block;
 }
 
 h3 {
 	color: #FFFFFF;
+	font-family: 'Kadwa';
 	font-style: normal;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 400;
-	margin-top: 240PX;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
 }
