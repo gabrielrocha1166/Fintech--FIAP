@@ -1,0 +1,96 @@
+body {
+	background: #0e8aaf;
+	font-family: var(--bs-font-sans-serif);
+}
+
+.logo {
+	margin: 12px 0 0 24px;
+}
+
+.box {
+	background: #FFFFFF;
+	width: 264px;
+	height: 390px;
+	border-radius: 5px;
+	margin: 50px auto 0;
+	padding: 39px 0;
+	text-align: center;
+}
+
+h1 {
+	color: #000000;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+form {
+	display: inline-block;
+}
+
+::placeholder {
+	padding-left: 5px;
+}
+ 
+label {
+	display: block;
+	margin: 20px 0 5px; 
+	text-align: left;
+}
+
+.form-control {
+	border: 1px solid #797474;
+	border-radius: 3px;
+	height: 30px;
+}
+
+input {
+	height: 25px;
+	border-width: 1px;
+    border-style: solid;
+    border-color:rgb(133, 133, 133);
+	border-radius: 2.5px;
+}
+
+.nome {
+	background-image: url("../../imagens/user2.jpg");
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-size: 25px;
+}
+
+.email {
+	background-image: url("../../imagens/email.jpg");
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-size: 25px;
+}
+
+.senha {
+	background-image: url("../../imagens/chave.jpg");
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-size: 25px;
+}
+
+.confirmar_senha {
+	background-image: url("../../imagens/chave.jpg");
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-size: 25px;
+}
+
+
+.criar_conta {
+	background: #F0EDED;
+	border: 3px solid #1EA6D196;
+	color: black;
+	border-radius: 5px;
+	font-size: 14px;
+	width: 140px;
+	height: 35px;
+	margin: 40px auto 0;
+	display: block;
+}
