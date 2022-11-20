@@ -4,14 +4,15 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="pt-BR">
+
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	    <title>Cadastro de Movimentações</title>
+	    <title>Movimentações</title>
 		<%@ include file="header.jsp" %>
 	</head>
+
 	<body>
 		<header>
 			<img src="imagens/user.svg" alt="Usuário" class="usuario">
@@ -22,8 +23,9 @@
 		</header>
 		<main>
 			<%@ include file="menu.jsp" %>
-			<div class="container">
-				<h2>Cadastro de Movimentações</h2>
+			<div class="container box">
+				<h2>Movimentações</h2>
+
 				<c:if test="${not empty msg }">
 					<div class="alert alert-success">${msg}</div>
 				</c:if>
@@ -33,7 +35,7 @@
 				
 					<div>
 						<label for="id-categoria">Categoria</label>
-						<select class="form-select" id="id-categoria" name="categoria">
+						<select class="form-select categoria" id="id-categoria" name="categoria">
 							<option>Receita</option>
 							<option>Despesa</option>
 						</select>
@@ -42,7 +44,7 @@
 					<%-- SELECAO DE CATEGORIA POR STRING - NAO USAR, MAS MANTER
 					<div class="form-group">
 						<label for="id-categoria">Categoria</label>
-						<input type="text" name="categoria" id="id-categoria" class="form-control" placeholder="Digite a categoria" required>
+						<input type="text" name="categoria" id="id-categoria" class="form-control nome" placeholder="Digite a categoria" required>
 					</div> 
 					--%>
 				
@@ -67,6 +69,7 @@
 			</div>
 			<%@ include file="footer.jsp" %>
 		</main>
+
 	    <footer class="fixed-bottom">
 			<section class="box_rodape">
 				<img src="imagens/inicio.svg">
@@ -76,5 +79,7 @@
 				<img src="imagens/configuracoes.svg">
 			</section>
 	    </footer>
+
 	</body>
+
 </html>

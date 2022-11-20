@@ -3,9 +3,12 @@
 <!-- Reset CSS -->
 <link rel="stylesheet" href="resources/css/reset.css">
 
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="resources/css/bootstrap-grid.css">
+<link rel="stylesheet" href="resources/css/bootstrap.css">
+
 <!-- CSS cadastro -->
 <link rel="stylesheet" href="resources/css/style_cadastro.css">
-
 
 <!-- CSS cadastro movimentacao -->
 <link rel="stylesheet" href="resources/css/cadastro-movimentacao.css">
